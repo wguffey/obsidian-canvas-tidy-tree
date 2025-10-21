@@ -1,0 +1,20 @@
+{
+    "name": "canvas-tidy-tree",
+    "version": "0.1.0",
+    "description": "Auto-layout Obsidian Canvas graphs.",
+    "main": "main.js",
+    "scripts": {
+        "dev": "esbuild main.ts --bundle --outfile=main.js --format=cjs --sourcemap --external:obsidian",
+        "build": "esbuild main.ts --bundle --minify --outfile=main.js --format=cjs --external:obsidian"
+    },
+    "keywords": ["obsidian", "canvas", "layout", "tree", "elk"],
+    "author": "Dynalist Inc.",
+    "license": "ISC",
+    "devDependencies": {
+        "esbuild": "^0.25.11",
+        "typescript": "^5.5.4"
+    },
+    "dependencies": {
+        "elkjs": "^0.11.0"
+    }
+}
