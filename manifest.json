@@ -1,0 +1,10 @@
+{
+    "id": "canvas-tidy-tree",
+    "name": "Canvas Tidy Tree",
+    "version": "0.1.0",
+    "minAppVersion": "1.5.0",
+    "description": "Automatically tidy up Canvas graphs.",
+    "author": "Will Guffey",
+    "authorUrl": "https://github.com/wguffey/canvas-tidy-tree",
+    "isDesktopOnly": true
+}
